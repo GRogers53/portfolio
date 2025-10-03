@@ -9,5 +9,12 @@ date: 2024-12-02
 
 I am a History PhD student who studies Jewish life and culture in medieval Iberia utilizing environment, networks, architecture, and economics. 
 
+{% include figure.html
+  class="right"
+  width="60%"
+  caption="What a nice view"
+  image-path="/assets/images/dehesa.jpg"
+%}
+
 {% assign essays = site.pages | where: "homepage", true %}
 {% include card-list.html cards = essays %}
